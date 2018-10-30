@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ConsSW"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/zixel/CLionProjects/ConsSW/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/zixel/CLionProjects/ConsSW/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/zixel/CLionProjects/ConsSW/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/zixel/CLionProjects/ConsSW/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/zixel/CLionProjects/ConsSW/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/zixel/CLionProjects/ConsSW/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/zixel/CLionProjects/ConsSW/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/zixel/CLionProjects/ConsSW/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/zixel/CLionProjects/ConsSW/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/zixel/CLionProjects/ConsSW/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/zixel/CLionProjects/ConsSW/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/zixel/CLionProjects/ConsSW/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/zixel/CLionProjects/ConsSW/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/zixel/CLionProjects/ConsSW/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/zixel/CLionProjects/ConsSW/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ConsSW">
+				<Option output="/Users/zixel/CLionProjects/ConsSW/cmake-build-debug/ConsSW" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zixel/CLionProjects/ConsSW/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/zixel/CLionProjects/ConsSW/cmake-build-debug/Makefile&quot;  VERBOSE=1 ConsSW"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/zixel/CLionProjects/ConsSW/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/zixel/CLionProjects/ConsSW/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/zixel/CLionProjects/ConsSW/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ConsSW/fast">
+				<Option output="/Users/zixel/CLionProjects/ConsSW/cmake-build-debug/ConsSW" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zixel/CLionProjects/ConsSW/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/zixel/CLionProjects/ConsSW/cmake-build-debug/Makefile&quot;  VERBOSE=1 ConsSW/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/zixel/CLionProjects/ConsSW/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/zixel/CLionProjects/ConsSW/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/zixel/CLionProjects/ConsSW/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/zixel/CLionProjects/ConsSW/container/BinaryTree.cpp">
+			<Option target="ConsSW"/>
+		</Unit>
+		<Unit filename="/Users/zixel/CLionProjects/ConsSW/container/BinaryTree.h">
+			<Option target="ConsSW"/>
+		</Unit>
+		<Unit filename="/Users/zixel/CLionProjects/ConsSW/container/BinaryTreeIterator.cpp">
+			<Option target="ConsSW"/>
+		</Unit>
+		<Unit filename="/Users/zixel/CLionProjects/ConsSW/container/BinaryTreeIterator.h">
+			<Option target="ConsSW"/>
+		</Unit>
+		<Unit filename="/Users/zixel/CLionProjects/ConsSW/exceptions/OutOfRangeException.cpp">
+			<Option target="ConsSW"/>
+		</Unit>
+		<Unit filename="/Users/zixel/CLionProjects/ConsSW/exceptions/OutOfRangeException.h">
+			<Option target="ConsSW"/>
+		</Unit>
+		<Unit filename="/Users/zixel/CLionProjects/ConsSW/main.cpp">
+			<Option target="ConsSW"/>
+		</Unit>
+		<Unit filename="/Users/zixel/CLionProjects/ConsSW/shapes/Circle.cpp">
+			<Option target="ConsSW"/>
+		</Unit>
+		<Unit filename="/Users/zixel/CLionProjects/ConsSW/shapes/Circle.h">
+			<Option target="ConsSW"/>
+		</Unit>
+		<Unit filename="/Users/zixel/CLionProjects/ConsSW/shapes/RegularPolygon.cpp">
+			<Option target="ConsSW"/>
+		</Unit>
+		<Unit filename="/Users/zixel/CLionProjects/ConsSW/shapes/RegularPolygon.h">
+			<Option target="ConsSW"/>
+		</Unit>
+		<Unit filename="/Users/zixel/CLionProjects/ConsSW/shapes/ShadowedRegularPolygon.cpp">
+			<Option target="ConsSW"/>
+		</Unit>
+		<Unit filename="/Users/zixel/CLionProjects/ConsSW/shapes/ShadowedRegularPolygon.h">
+			<Option target="ConsSW"/>
+		</Unit>
+		<Unit filename="/Users/zixel/CLionProjects/ConsSW/shapes/Shape.cpp">
+			<Option target="ConsSW"/>
+		</Unit>
+		<Unit filename="/Users/zixel/CLionProjects/ConsSW/shapes/Shape.h">
+			<Option target="ConsSW"/>
+		</Unit>
+		<Unit filename="/Users/zixel/CLionProjects/ConsSW/shapes/Text.cpp">
+			<Option target="ConsSW"/>
+		</Unit>
+		<Unit filename="/Users/zixel/CLionProjects/ConsSW/shapes/Text.h">
+			<Option target="ConsSW"/>
+		</Unit>
+		<Unit filename="/Users/zixel/CLionProjects/ConsSW/shapes/TextInShape.cpp">
+			<Option target="ConsSW"/>
+		</Unit>
+		<Unit filename="/Users/zixel/CLionProjects/ConsSW/shapes/TextInShape.h">
+			<Option target="ConsSW"/>
+		</Unit>
+		<Unit filename="/Users/zixel/CLionProjects/ConsSW/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
